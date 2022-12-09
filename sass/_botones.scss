@@ -8,23 +8,23 @@
     margin-top: 5%;
 
     .botonServicios {
-        background-color: rgba(91, 91, 126, 0.815);
-        margin: 1rem;
-        padding: 1rem;
-        border: none;
-        border-radius: 5%;
+        background-color: map-get($boton, background-color);
+        margin: map-get($boton, margin);
+        padding: map-get($boton, padding);
+        border: map-get($boton, border);
+        border-radius: map-get($boton, border-radius);
     }
 
     .botonProductos {
-        background-color: rgba(91, 91, 126, 0.815);
-        margin: 1rem;
-        padding: 1rem;
-        border: none;
-        border-radius: 5%;
+        background-color: map-get($boton, background-color);
+        margin: map-get($boton, margin);
+        padding: map-get($boton, padding);
+        border: map-get($boton, border);
+        border-radius: map-get($boton, border-radius);
     }
 }
 
-.btn-primary:hover {
-    color: rgba(91, 91, 126, 0.815);
-    background-color: #9fbce7bd;
-}
+    .btn-primary:hover {
+        color: rgba(91, 91, 126, 0.815);
+        background-color: #9fbce7bd;
+    }

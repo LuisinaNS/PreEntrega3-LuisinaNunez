@@ -1,37 +1,21 @@
 .fondoCard1 {
     background-image: url(../assets/images/lentesRecetados.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(255, 255, 255, 0.514);
-    background-blend-mode: soft-light;
+    @include fondoCard;
 }
 
 .fondoCard2 {
     background-image: url(../assets/images/lentesSol.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(255, 255, 255, 0.514);
-    background-blend-mode: soft-light;
+    @include fondoCard;
 }
 
 .fondoCard3 {
     background-image: url(../assets/images/lentesContacto.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(255, 255, 255, 0.514);
-    background-blend-mode: soft-light;
+    @include fondoCard;
 }
 
 .fondoCard4 {
     background-image: url(../assets/images/audifonos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(255, 255, 255, 0.514);
-    background-blend-mode: soft-light;
+    @include fondoCard;
 }
 
 .cardProds {
