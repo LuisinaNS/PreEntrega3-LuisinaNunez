@@ -2,9 +2,9 @@
 
 .botones {
     font-family: $tipografia-general;
-    font-size: medium;
-    font-weight: bold;
-    text-align: center;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-bold;
+    text-align: $text-align-center;
     margin-top: 5%;
 
     .botonServicios {

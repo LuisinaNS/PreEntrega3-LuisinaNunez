@@ -1,11 +1,11 @@
 /* header general todas las páginas*/
 
 .estiloHeader {
-    padding: 1rem;
+    padding: $padding-1rem;
 
     .anclas {
         font-family: $tipografia-general;
-        font-size: medium;
-        font-weight: bold;
+        font-size: $font-size-medium;
+        font-weight: $font-weight-bold;
     }
 }

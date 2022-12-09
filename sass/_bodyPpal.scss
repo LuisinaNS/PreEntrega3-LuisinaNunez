@@ -2,10 +2,6 @@
 
 .fondoAnteojo {
     background-image: url(../assets/images/anteojosMainPrincipal.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(255, 255, 255, 0.514);
-    background-blend-mode: soft-light;
+    @include fondoCard;
 
 }

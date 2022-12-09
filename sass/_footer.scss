@@ -1,14 +1,14 @@
 /* footer general todas las páginas*/
 
 .estiloFooter {
-    padding-top: 1%;
+    padding-top: $padding-1x100;
     background-color: rgb(77, 77, 77);
     font-family: $tipografia-general;
-    font-size: small;
+    font-size: $font-size-small;
     color: rgb(252, 252, 252);
-    text-align: center;
+    text-align: $text-align-center;
 
     .contacto {
-        font-size: medium;
+        font-size: $font-size-medium;
     }
 }

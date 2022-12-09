@@ -1,15 +1,15 @@
 /*main index*/
 
 .estiloMain {
-    padding: 3%;
+    padding: $padding-3x100;
     font-family: $tipografia-general;
-    font-size: large;
-    text-align: justify;
+    font-size: $font-size-large;
+    text-align: $text-align-justify;
 
     .bienvenida {
         font-family: $tipografia-general;
         font-size: 3rem;
-        font-style: italic;
-        font-weight: bold;
+        font-style: $font-style-italic;
+        font-weight: $font-weight-bold;
     }
 }

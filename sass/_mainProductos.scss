@@ -29,13 +29,13 @@
 
     .anclaProds {
         font-family: $tipografia-general;
-        font-size: medium;
-        font-weight: bold;
+        font-size: $font-size-medium;
+        font-weight: $font-weight-bold;
         text-decoration: none;
         color: rgb(66, 60, 60);
         display: flex;
         justify-content: center;
-        text-align: center;
+        text-align: $text-align-center;
         &:hover {
             color: rgba(160, 184, 204, 0.884);
         }
