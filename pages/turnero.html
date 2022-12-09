@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--incluyo imagen que transformé en ícono y favicon-->
+    <link rel="icon" type="image/jpg" href="../assets/images/favicon-16x16.png">
+    <title>Óptica Online | Turnos</title>
+    <!-- Estilos Bootstrap + estilado propio + animaciones + datetimepicker-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- aquí comienza el header -->
+    <header>
+        <div class="container-fluid estiloHeader">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand"><img src="../assets/images/LogoOpticaOnline.svg" alt="logo"
+                                    width="80%" height="60%"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse anclas" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../index.html">Principal</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./productos.html">Productos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- aquí comienza el contenido principal de la página-->
+    <main>
+        <section class="container estiloMain1">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <h1 class="titulo">Complete sus datos:</h1>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="DNI">
+                    </div>
+
+                    <!-- elegir servicio -->
+                    <div class="mb-3">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>Servicio:</option>
+                            <option value="1">Óptica y Optometría</option>
+                            <option value="2">onoaudiología</option>
+                        </select>
+                    </div>
+
+                    <!-- elegir modo de atención -->
+                    <div class="mb-3">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>OBRA SOCIAL/PARTICULAR:</option>
+                            <option value="1">Sin Obra Social/Particular</option>
+                            <option value="2">OSDE</option>
+                            <option value="3">PREVENCIÓN SALUD</option>
+                            <option value="4">OMINT</option>
+                            <option value="5">SANCOR SALUD</option>
+                            <option value="6">SWISS MEDICAL</option>
+                            <option value="6">Otra</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tel/Cel.">
+                    </div>
+
+                    <div class="mb-4">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E Mail">
+                    </div>
+
+                    <h3 class="estiloDateTime">Seleccione fecha y horario:</h3>
+                   <!-- no pude hacer que el componente de datepicker quede orgánico con respecto a loss otros inputs, me queda pendiente para la entrega final-->                   
+                    <div class="mb-3 mt-3">
+                        <input type="date" name="fecha">
+                    </div>
+
+                    <div class="mb-3">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>Horarios disponibles:</option>
+                            <option value="1">9:00hs</option>
+                            <option value="2">10:00hs</option>
+                            <option value="2">10:30hs</option>
+                        </select>
+                    </div>
+                </div>
+                </section>
+                <br>
+                <div>
+                    <div class="botones mt-4 mb-4">
+                        <a class="btn btn-primary botonServicios" href="#">Agendar turno</a>
+                    </div>
+                </div>
+    </main>
+
+    <!-- aquí comienza el footer -->
+    <footer>
+        <div class="container-fluid estiloFooter">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <p class="fw-bold contacto animate__animated animate__pulse animated__delay-3 animate__infinite">
+                        Contactanos</p>
+                    <p>Whatsapp: 351 694197</p>
+                    <p>Teléfono: 0351 434684</p>
+                    <p>E Mail: contacto@opticanunez.com</p>
+                    <small>Óptica Nuñez - Todos los derechos reservados 2022</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+</body>
+
+</html>

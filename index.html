@@ -1,0 +1,97 @@
+<!-- Mi proyecto se trata de un sitio web para una óptica, que consta de 4 páginas principales -1 home y 3 links-; desde la página de servicios (uno de los links) se puede acceder a una 5ta página, corresponidente a un turnero. El diseño se mantiene lo más simple y limpio posible porque el público al que está dirigido el producto incluye personas mayores, que conozcan del uso básico de PC y teléfonos móbiles, así como navegar en la web-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--incluyo imagen que transformé en ícono y favicon-->
+	<link rel="icon" type="image/jpg" href="./assets/images/favicon-16x16.png">
+	<title>Óptica Online | Principal</title>
+	<!-- Estilos Bootstrap + estilado propio + animaciones-->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body class="fondoAnteojo">
+
+	<!-- aquí comienza el header -->
+	<header>
+		<div class="container-fluid estiloHeader">
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+						<div class="container-fluid">
+							<a class="navbar-brand"><img src="./assets/images/LogoOpticaOnline.svg" alt="logo"
+									width="80%" height="60%"></a>
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+								data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse anclas" id="navbarSupportedContent">
+								<ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+									<li class="nav-item">
+										<a class="nav-link" href="./index.html">Principal</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="./pages/servicios.html">Servicios</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="./pages/productos.html">Productos</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- aquí comienza el contenido principal de la página -->
+	<main>
+		<section class="container-fluid estiloMain">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<h1 class="bienvenida animate__animated animate__fadeInRight animated__delay-5s animate__slow-5s">
+						Bienvenidos</h1>
+					<br>
+					<p>Óptica Nuñez se acerca a sus clientes a través de su sitio web Óptica Online CBA, premitiéndote
+						acceder a todos los servicios desde dónde estés y en cualquier momento.</p>
+					<p>Vas a poder conocer y seleccionar los productos que quieras adquirir, así como sacar
+						turnos para realizar tus consultas presenciales con nuestro profesionales de las áreas de Óptica
+						y Fonoaudiología en la sección "Servicios"</p>
+					<div class="botones">
+						<a class="btn btn-primary botonServicios" href="./pages/servicios.html">Servicios</a>
+						<a class="btn btn-primary botonProductos" href="./pages/productos.html">Productos</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- aquí comienza el footer -->
+	<footer>
+		<div class="container-fluid estiloFooter">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<p class="fw-bold contacto animate__animated animate__pulse animated__delay-3s animate__infinite">
+                        Contactanos</p>
+					<p>Whatsapp: 351 694197</p>
+					<p>Teléfono: 0351 434684</p>
+					<p>E Mail: contacto@opticanunez.com</p>
+					<small>Óptica Nuñez - Todos los derechos reservados 2022</small>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

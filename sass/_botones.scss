@@ -1,0 +1,30 @@
+/*botones general todas las páginas*/
+
+.botones {
+    font-family: $tipografia-general;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+
+    .botonServicios {
+        background-color: rgba(91, 91, 126, 0.815);
+        margin: 1rem;
+        padding: 1rem;
+        border: none;
+        border-radius: 5%;
+    }
+
+    .botonProductos {
+        background-color: rgba(91, 91, 126, 0.815);
+        margin: 1rem;
+        padding: 1rem;
+        border: none;
+        border-radius: 5%;
+    }
+}
+
+.btn-primary:hover {
+    color: rgba(91, 91, 126, 0.815);
+    background-color: #9fbce7bd;
+}

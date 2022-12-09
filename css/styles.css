@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* header general todas las páginas*/
+.estiloHeader {
+  padding: 1rem; }
+  .estiloHeader .anclas {
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    font-weight: bold; }
+
+/* footer general todas las páginas*/
+.estiloFooter {
+  padding-top: 1%;
+  background-color: #4d4d4d;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+  color: #fcfcfc;
+  text-align: center; }
+  .estiloFooter .contacto {
+    font-size: medium; }
+
+/* index estilo general body */
+.fondoAnteojo {
+  background-image: url(../assets/images/anteojosMainPrincipal.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light; }
+
+/*main index*/
+.estiloMain {
+  padding: 3%;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  text-align: justify; }
+  .estiloMain .bienvenida {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold; }
+
+/*estiloMain1 se repite en todas las pages (páginas secundarias al index)*/
+.estiloMain1 {
+  padding: 3%;
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  text-align: justify; }
+  .estiloMain1 .titulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold; }
+  .estiloMain1 .subtitulo {
+    font-family: "Montserrat", sans-serif;
+    padding: 3%; }
+
+.pieFoto {
+  font-family: "Montserrat", sans-serif;
+  font-size: small; }
+
+.fondoCardServ1 {
+  background-image: url(../assets/images/medicionVisual.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light; }
+
+.fondoCardServ2 {
+  background-image: url(../assets/images/audiometria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light; }
+
+.fondoCard1 {
+  background-image: url(../assets/images/lentesRecetados.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light; }
+
+.fondoCard2 {
+  background-image: url(../assets/images/lentesSol.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light; }
+
+.fondoCard3 {
+  background-image: url(../assets/images/lentesContacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light; }
+
+.fondoCard4 {
+  background-image: url(../assets/images/audifonos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light; }
+
+.cardProds {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  border: none;
+  border-radius: 0.25rem;
+  height: 300px; }
+  .cardProds .anclaProds {
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    color: #423c3c;
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+    .cardProds .anclaProds:hover {
+      color: rgba(160, 184, 204, 0.884); }
+
+.estiloDateTime {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold; }
+
+/*botones general todas las páginas*/
+.botones {
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%; }
+  .botones .botonServicios {
+    background-color: rgba(91, 91, 126, 0.815);
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5%; }
+  .botones .botonProductos {
+    background-color: rgba(91, 91, 126, 0.815);
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5%; }
+
+.btn-primary:hover {
+  color: rgba(91, 91, 126, 0.815);
+  background-color: #9fbce7bd; }

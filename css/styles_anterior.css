@@ -1,0 +1,203 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,100&display=swap');
+
+/* PÁGINA PRINCIPAL
+estilo general body */
+.fondoAnteojo {
+  background-image: url(../assets/images/anteojosMainPrincipal.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light;
+
+}
+
+/* header */
+.estiloHeader {
+  padding: 1rem;
+}
+
+.anclas {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  font-weight: bold;
+}
+
+/* main */
+.estiloMain {
+  padding: 3%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  text-align: justify;
+}
+
+.bienvenida {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.botonServicios {
+  background-color: rgba(91, 91, 126, 0.815);
+  margin: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5%;
+}
+
+.botonProductos {
+  background-color: rgba(91, 91, 126, 0.815);
+  margin: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5%;
+}
+
+.botones {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.btn-primary:hover {
+  color: rgba(91, 91, 126, 0.815);
+  background-color: #9fbce7bd;
+}
+
+/* footer */
+.estiloFooter {
+  padding-top: 1%;
+  background-color: rgb(77, 77, 77);
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  color: rgb(252, 252, 252);
+  text-align: center;
+}
+
+.contacto {
+  font-size: medium;
+}
+
+
+/* NOSOTROS
+main */
+.estiloMain1 {
+  padding: 3%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  text-align: justify;
+}
+
+.titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-family: 'Montserrat', sans-serif;
+  padding: 3%
+}
+
+.pieFoto {
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+}
+
+/* SERVICIOS
+main */
+.fondoCardServ1 {
+  background-image: url(../assets/images/medicionVisual.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light;
+}
+
+.fondoCardServ2 {
+  background-image: url(../assets/images/audiometria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light;
+}
+
+/* PRODUCTOS
+main */
+.fondoCard1 {
+  background-image: url(../assets/images/lentesRecetados.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light;
+}
+
+.fondoCard2 {
+  background-image: url(../assets/images/lentesSol.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light;
+}
+
+.fondoCard3 {
+  background-image: url(../assets/images/lentesContacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light;
+}
+
+.fondoCard4 {
+  background-image: url(../assets/images/audifonos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.514);
+  background-blend-mode: soft-light;
+}
+
+.anclaProds {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(66, 60, 60);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.anclaProds:hover {
+  color: rgba(160, 184, 204, 0.884);
+}
+
+.cardProds {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  border: none;
+  border-radius: 0.25rem;
+  height: 300px;
+}
+
+/* TURNERO
+main */
+.estiloDateTime {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+}

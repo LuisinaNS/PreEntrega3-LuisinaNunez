@@ -1,0 +1,25 @@
+/*estiloMain1 se repite en todas las pages (páginas secundarias al index)*/
+
+.estiloMain1 {
+    padding: 3%;
+    font-family: $tipografia-general;
+    font-size: medium;
+    text-align: justify;
+
+    .titulo {
+        font-family: $tipografia-general;
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .subtitulo {
+        font-family: $tipografia-general;
+        padding: 3%
+    }
+}
+
+.pieFoto {
+    font-family: $tipografia-general;
+    font-size: small;
+}

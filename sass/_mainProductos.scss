@@ -1,0 +1,59 @@
+.fondoCard1 {
+    background-image: url(../assets/images/lentesRecetados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.514);
+    background-blend-mode: soft-light;
+}
+
+.fondoCard2 {
+    background-image: url(../assets/images/lentesSol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.514);
+    background-blend-mode: soft-light;
+}
+
+.fondoCard3 {
+    background-image: url(../assets/images/lentesContacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.514);
+    background-blend-mode: soft-light;
+}
+
+.fondoCard4 {
+    background-image: url(../assets/images/audifonos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.514);
+    background-blend-mode: soft-light;
+}
+
+.cardProds {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    border: none;
+    border-radius: 0.25rem;
+    height: 300px;
+
+    .anclaProds {
+        font-family: $tipografia-general;
+        font-size: medium;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(66, 60, 60);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        &:hover {
+            color: rgba(160, 184, 204, 0.884);
+        }
+    }
+}
