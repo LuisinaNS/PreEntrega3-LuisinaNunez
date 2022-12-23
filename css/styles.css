@@ -161,3 +161,15 @@
 .btn-primary:hover {
   color: rgba(91, 91, 126, 0.815);
   background-color: #9fbce7bd; }
+
+.error {
+  font-size:larger;
+  font-weight: bold;
+}
+
+.msjvolver {
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}

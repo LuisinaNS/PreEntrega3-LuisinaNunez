@@ -71,20 +71,20 @@
                 <div class="col-xs-12 col-md-6">
 
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
                     </div>
 
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido" required>
                     </div>
 
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="DNI">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="DNI" required>
                     </div>
 
                     <!-- elegir servicio -->
                     <div class="mb-3">
-                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
                             <option selected>Servicio:</option>
                             <option value="1">Óptica y Optometría</option>
                             <option value="2">onoaudiología</option>
@@ -93,7 +93,7 @@
 
                     <!-- elegir modo de atención -->
                     <div class="mb-3">
-                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
                             <option selected>OBRA SOCIAL/PARTICULAR:</option>
                             <option value="1">Sin Obra Social/Particular</option>
                             <option value="2">OSDE</option>
@@ -108,21 +108,21 @@
 
                 <div class="col-xs-12 col-md-6">
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tel/Cel.">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tel/Cel." required>
                     </div>
 
                     <div class="mb-4">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E Mail">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E Mail" required>
                     </div>
 
                     <h3 class="estiloDateTime">Seleccione fecha y horario:</h3>
                    <!-- no pude hacer que el componente de datepicker quede orgánico con respecto a loss otros inputs, me queda pendiente para la entrega final-->                   
                     <div class="mb-3 mt-3">
-                        <input type="date" name="fecha">
+                        <input type="date" name="fecha" required>
                     </div>
 
                     <div class="mb-3">
-                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
                             <option selected>Horarios disponibles:</option>
                             <option value="1">9:00hs</option>
                             <option value="2">10:00hs</option>
@@ -134,7 +134,7 @@
                 <br>
                 <div>
                     <div class="botones mt-4 mb-4">
-                        <a class="btn btn-primary botonServicios" href="#">Agendar turno</a>
+                        <a href="./error.html" class="btn btn-primary botonServicios" href="#">Agendar turno</a>
                     </div>
                 </div>
     </main>
